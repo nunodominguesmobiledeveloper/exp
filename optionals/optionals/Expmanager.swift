@@ -10,4 +10,8 @@ import Foundation
 
 struct ExpManager {
     let experience: Exp?
+    
+    init(experience: Exp?) {
+        self.experience = experience
+    }
 }
