@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct Exp {
+    let name: String
+    let age: Int
+}

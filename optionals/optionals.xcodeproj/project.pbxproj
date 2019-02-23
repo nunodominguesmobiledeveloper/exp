@@ -13,6 +13,7 @@
 		6D9143DB222164C500ACEE07 /* optionals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D9143D9222164C500ACEE07 /* optionals.xcdatamodeld */; };
 		6D9143DD222164C600ACEE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D9143DC222164C600ACEE07 /* Assets.xcassets */; };
 		6D9143E0222164C600ACEE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D9143DE222164C600ACEE07 /* LaunchScreen.storyboard */; };
+		6D9143E8222164EB00ACEE07 /* exp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9143E7222164EB00ACEE07 /* exp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6D9143DC222164C600ACEE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D9143DF222164C600ACEE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D9143E1222164C600ACEE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D9143E7222164EB00ACEE07 /* exp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				6D9143DE222164C600ACEE07 /* LaunchScreen.storyboard */,
 				6D9143E1222164C600ACEE07 /* Info.plist */,
 				6D9143D9222164C500ACEE07 /* optionals.xcdatamodeld */,
+				6D9143E7222164EB00ACEE07 /* exp.swift */,
 			);
 			path = optionals;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9143DB222164C500ACEE07 /* optionals.xcdatamodeld in Sources */,
+				6D9143E8222164EB00ACEE07 /* exp.swift in Sources */,
 				6D9143D5222164C500ACEE07 /* ViewController.swift in Sources */,
 				6D9143D3222164C500ACEE07 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA9H5X5K5H;
 				INFOPLIST_FILE = optionals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UA9H5X5K5H;
 				INFOPLIST_FILE = optionals/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
